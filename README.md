@@ -15,14 +15,3 @@ Analyze Amazon food reviews using **VADER** and **RoBERTa** sentiment models.
 - Sentiment analysis with VADER & RoBERTa
 - Compare sentiment scores vs. star ratings
 
-## Example
-```python
-import pandas as pd
-import nltk
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
-
-df = pd.read_csv('./Reviews.csv')
-sia = nltk.sentiment.SentimentIntensityAnalyzer()
-sia.polarity_scores("This product is amazing!")
-```
-
