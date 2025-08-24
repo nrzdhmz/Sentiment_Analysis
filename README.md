@@ -4,7 +4,7 @@ Analyze Amazon food reviews using **VADER** and **RoBERTa** sentiment models.
 
 ## Dataset
 - **[Amazon Fine Food Reviews](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)** (`Reviews.csv`)
-- Columns include `Id`, `Score`, `Text`, etc.
+- Columns: `Id`, `ProductId`, `UserId`, `ProfileName`, `HelpfulnessNumerator`, `HelpfulnessDenominator`, `Score`, `Time`, `Summary`, `Text`
 
 ## Libraries
 `pandas`, `numpy`, `matplotlib`, `seaborn`, `nltk`, `transformers`, `tqdm`
